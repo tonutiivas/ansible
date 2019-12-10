@@ -1,0 +1,10 @@
+- hosts: localhost
+  become: true
+  tasks:
+  - name: install htop
+    apt: name=htop
+
+  - name: install mc
+    apt: name=mc
+
+
